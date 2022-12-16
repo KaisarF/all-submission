@@ -1,0 +1,214 @@
+  @media screen and (max-width: 499px) {
+    .resto__description{
+      font-size: 15px;
+      text-align: left;
+    }
+    #judul{
+      font-size: 20px;
+    }
+    .content{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 5px;
+          grid-row-gap: 5px;
+      
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
+    .contentDetail{
+
+      width: 100%;
+    }
+
+    #drawer a{
+      font-size: 10px;
+      
+    }
+    a{
+      padding: min(50px,3%);
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #drawer{
+      display:none;
+    }
+  }
+  @media screen and (min-width:600px){
+    #hamburger{
+      display: none;
+    }
+  }
+  @media screen and (max-width:500px) {
+    #navbar{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 5px;
+      vertical-align: middle;
+    }
+    a{
+      padding: min(50px,3%);
+    }
+    
+  }
+
+  @media screen and (min-width: 500px) {
+    
+    .content{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-column-gap: 5px;
+          grid-row-gap: 5px;
+      
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
+    .resto__description{
+      font-size: 10px;
+      text-align: left;
+    }
+    #judul{
+      font-size: 20px;
+    }
+    #drawer a{
+      font-size: 20px;
+      
+    }
+    
+    a{
+      padding: min(50px,3%);
+    }
+  }
+  
+  @media screen and (min-width: 650px) {
+
+    .content{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 5px;
+          grid-row-gap: 5px;
+      
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
+    .contentDetail {
+      width: 80%;
+    }
+
+    .resto__description{
+      font-size: 13px;
+      text-align: left;
+    }
+    #judul{
+      font-size: 25px;
+    }
+    #navbar a{
+      vertical-align:middle;
+      font-size: 30px;
+          
+    }
+    
+    
+  }
+  
+  @media screen and (min-width: 700px) {
+
+    .resto__city{
+      font-size:18px;
+    }
+    .resto__rating{
+      font-size: 16px;
+    }
+    .resto__description{
+      font-size: 15px
+    }
+    #navbar a{
+      vertical-align:middle;
+      font-size: 33px;
+          
+    }
+    a{
+      padding: min(50px,3%);
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    #judul{
+      font-size:30px;
+    }
+    .resto__name{
+      font-size: 25px;
+    }
+    .resto__city{
+      font-size:22px;
+    }
+    .resto__rating{
+      font-size: 19px;
+    }
+    .resto__description{
+      font-size: 18px
+    }
+
+    #navbar a{
+      vertical-align:middle;
+      font-size: 36px;
+          
+    }
+    a{
+      padding: min(44px,3%);
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    .content{
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 15px;
+          grid-row-gap: 15px;
+      
+    }
+    .contentDetail {
+      width: 60%;
+    }
+    #navbar a{
+      vertical-align:middle;
+      font-size: 40px;
+          
+    }
+    a{
+      padding: min(44px,3%);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .content{
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+    }
+    #judul{
+      font-size:40px;
+    }
+    .resto__name{
+      font-size: 30px;
+    }
+    .resto__city{
+      font-size:27px;
+    }
+    .resto__rating{
+      font-size: 24px;
+    }
+    .resto__description{
+      font-size: 23px
+    }
+    a{
+      padding: min(44px,3%);
+    }
+  }
