@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+ 
+           /* Properti lainnya */
+           width: 50px;
+           height: 50px;
+           background-color: #11C5C6;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+}
+
+.container .btn{
+    flex-grow: 1;
+ 
+           /* properti lainnya */
+           background-color: #FBDD1C;
+           margin: 50px;
+           border: 2px solid black;
+           border-radius: 10px;
+
+
+}
